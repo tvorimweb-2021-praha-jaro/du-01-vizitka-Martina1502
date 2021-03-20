@@ -1,0 +1,29 @@
+body {
+    color: #2F4F4F	;
+    background-color: #DCDCDC;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+}
+.foto-ja {
+    width: 200px;
+    border-radius: 30px 0 30px 0;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    border: 1px dotted #2F4F4F;
+}
+
+section {
+    padding: 20px 15%;
+}
+
+p {
+    margin-top: 0;
+    text-align: justify;
+}
