@@ -2,16 +2,23 @@ body {
     color: #2F4F4F	;
     background-color: #DCDCDC;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 20px;
+    font-size: 1.3rem;
     line-height: 1.5;
+    margin: 0;
 }
 
 h1 {
     text-align: center;
-    font-size: 45px;
+    font-size: 3rem;
+    color:whitesmoke;
+}
+
+h2 {
+    font-size: 1.7rem;
 }
 .foto-ja {
-    width: 200px;
+    width: auto;
+    max-height: 160px;
     border-radius: 30px 0 30px 0;
     float: left;
     margin-right: 25px;
@@ -20,10 +27,59 @@ h1 {
 }
 
 section {
-    padding: 20px 15%;
+    padding: 0 15% 20px;
 }
 
 p {
     margin-top: 0;
     text-align: justify;
+}
+
+img {
+    width: 32%;
+    border-radius: 10px;
+    border: 2px solid #2F4F4F;
+}
+
+header {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    padding: 120px 0px 0px 0px;
+    background-image: url(uvod.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+
+.omne {
+    padding-top: 320px;
+}
+
+nav {
+    text-align: center;
+    background-color: #2F4F4F;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+nav a:hover,
+nav a:focus,
+nav a:active{
+    background-color:  #63bdbd;
 }

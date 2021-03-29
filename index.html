@@ -1,25 +1,6 @@
-<!--
-Vytvoř osobní vizitku se:
-
-- jménem,
-- krátkým odstavcem o sobě,
-- odkazem na svůj profil,
-- vlastní fotkou (aby tě lektoři poznali),
-- odkazem na svůj e-mail.
-
-Vizitku ostyluj pomocí CSS:
-
-- Nastav barvu pozadí, popředí
-- Uprav velikost písma, zarovnání textu
-- Přidej si vlastní písmo např. z Google Fonts
-- Další vlastnosti dle vlastního uvážení
-
-Tip: Webdesign In 4 Minutes https://jgthms.com/web-design-in-4-minutes/
--->
-
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -32,17 +13,72 @@ Tip: Webdesign In 4 Minutes https://jgthms.com/web-design-in-4-minutes/
     <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
-    <h1>Martina Novosadová</h1>
+    <header>
+        <h1>Martina Novosadová</h1>
 
-    <section class="vizitka">
+        <nav>
+            <ul>
+                <li><a href="#omne">O mně</a></li>
+                <li><a href="#CR">Výlety po ČR</a></li>
+                <li><a href="#zahranici">Výlety v zahraničí</a></li>
+                <li><a href="#mista">Zajímavá místa</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <img class="foto-ja" src="Foto01.jpg" alt="Martina">
 
-    <p>Je to už celkem dávno, co nejsem školou povinná, ale stále mě baví učit se nové věci a zdokonalovat se. Vystudovala jsem ekonomku a nějaký čas pracovala ve finančním sektoru. Aktuálně pracuji v rodinné firmě, kde jsem tak trochu <em>holka pro všechno</em> a součástí nápně mé práce je i správa firemního webu ve <strong>Wordpressu</strong>. Právě tato činnost mě začala hodně bavit a přivedla mě na myšlenku udělat si alespoň základní kurz na <strong>HTML a CSS</strong>. Když nepracuju, tak ráda trávím volný čas venku při sportu (běh, kolo) nebo touláním se aktuálně pouze po české krajině. Optimisticky se ale už těším, že se covidová situace brzy zlepší a budu moct cestovat i za hranice ČR.</p>
 
-    <p>Více se můžete dozvědět na mém <a href="https://www.facebook.com/martina.novosadova.7/" target="_blank">Facebooku</a> nebo mi rovnou napište na můj <a href="mailto:martinanovosad@gmail.com"> email</a>.</p>
+    <main>
+        <section class="omne" id="omne">
+            <h2>O mně</h2>
 
-    </section>
+            <img class="foto-ja" src="Foto01.jpg" alt="Martina">
+
+            <p>Je to už celkem dávno, co nejsem školou povinná, ale stále mě baví učit se nové věci a zdokonalovat se. Vystudovala jsem ekonomku a nějaký čas pracovala ve finančním sektoru. Aktuálně pracuji v rodinné firmě, kde jsem tak trochu <em>holka pro všechno</em> a součástí nápně mé práce je i správa firemního webu ve <strong>Wordpressu</strong>. Právě tato činnost mě začala hodně bavit a přivedla mě na myšlenku udělat si alespoň základní kurz na <strong>HTML a CSS</strong>. Když nepracuju, tak ráda trávím volný čas venku při sportu (běh, kolo) nebo touláním se aktuálně pouze po české krajině. Optimisticky se ale už těším, že se covidová situace brzy zlepší a budu moct cestovat i za hranice ČR.</p>
+
+            <p>Více se můžete dozvědět na mém <a href="https://www.facebook.com/martina.novosadova.7/" target="_blank">Facebooku</a> nebo mi rovnou napište na můj <a href="mailto:martinanovosad@gmail.com"> email</a>.</p>
+
+        </section>
+
+        <section class="CR" id="CR">
+            <h2>Výlety po ČR</h2>
+
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce nibh. Aliquam erat volutpat. Fusce suscipit libero eget elit. Integer imperdiet lectus quis justo. Etiam quis quam. Donec iaculis gravida nulla. Nulla non arcu lacinia neque faucibus fringilla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce tellus. Duis pulvinar.
+            </p>
+
+            <img src="Trebon.jpg" alt="Třeboň">
+            <img src="Sumava.jpg" alt="Šumava">
+            <img src="Valassko.jpg" alt="Valašsko">
+
+        </section>
+
+        <section class="zahranici" id="zahranici">
+            <h2>Výlety v zahraničí</h2>
+
+            <p>Suspendisse nisl. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla quis diam. Duis condimentum augue id magna semper rutrum. Phasellus et lorem id felis nonummy placerat. Praesent id justo in neque elementum ultrices. Etiam egestas wisi a erat. Maecenas ipsum velit, consectetuer eu lobortis ut, dictum at dui. In rutrum. Praesent in mauris eu tortor porttitor accumsan. Aliquam erat volutpat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean fermentum risus id tortor.
+            </p>
+
+            <img src="Hawaii.JPG" alt="Hawaii">
+            <img src="Canada.JPG" alt="Canada">
+            <img src="USA.jpg" alt="USA">
+
+        </section>
+
+        <section class="mista" id="mista">
+            <h2>Zajímavá místa</h2>
+
+            <p>Suspendisse nisl. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla quis diam. Duis condimentum augue id magna semper rutrum. Phasellus et lorem id felis nonummy placerat. Praesent id justo in neque elementum ultrices. Etiam egestas wisi a erat. Maecenas ipsum velit, consectetuer eu lobortis ut, dictum at dui. In rutrum. Praesent in mauris eu tortor porttitor accumsan. Aliquam erat volutpat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean fermentum risus id tortor.
+            </p>
+
+            <img src="Chile.jpg" alt="Torres del paine">
+            <img src="Lofoty.jpg" alt="Lofoty">
+            <img src="Madeira.jpg" alt="Madeira">
+
+        </section>
+
+    </main>
 </body>
+
 </html>
